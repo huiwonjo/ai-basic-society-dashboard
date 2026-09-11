@@ -325,13 +325,15 @@
 
     .bar-row {
       display: grid;
-      grid-template-columns: minmax(150px, 0.9fr) minmax(180px, 1.4fr) 82px;
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.2fr) 82px;
       gap: 12px;
       align-items: center;
     }
 
     .bar-label {
       min-width: 0;
+      word-break: keep-all;
+      overflow-wrap: anywhere;
       font-weight: 700;
       font-size: 14px;
       line-height: 1.35;
@@ -749,8 +751,8 @@
     <main>
       <section class="intro" aria-labelledby="main-title">
         <div class="title-block">
-          <h1 id="main-title">전남광주 AI 기본사회 연결지도</h1>
-          <p class="lead">특별법 15개 조문군과 AI 행동계획 16개 과제를 교차해 2026년 세출 사업의 집중, 공백, 전환 프로젝트를 한 흐름으로 본다.</p>
+          <h1 id="main-title">전남광주 AI 기본사회 연계분석</h1>
+          <p class="lead">특별법 15개 조문군과 AI 행동계획 16개 과제를 교차한 2026년 세출 사업의 집중·공백·전환 프로젝트 종합 분석.</p>
         </div>
         <div class="axis-map" aria-label="분석 좌표계">
           <div class="axis-node">
@@ -795,8 +797,8 @@
       <section class="section" id="concentration">
         <div class="section-head">
           <div>
-            <h2>자원은 인프라와 생활서비스에 몰려 있다</h2>
-            <p>C09와 C14는 사업 수·예산이 큰 산업 인프라 축이고, C02와 C03은 A등급 비중이 큰 생활서비스 축이다.</p>
+            <h2>인프라·생활서비스 중심의 자원 집중</h2>
+            <p>C09와 C14는 사업 수·예산이 큰 산업 인프라 축 / C02와 C03은 A등급 비중이 큰 생활서비스 축</p>
           </div>
         </div>
         <div class="split-layout">
@@ -826,8 +828,8 @@
       <section class="section" id="matrix">
         <div class="section-head">
           <div>
-            <h2>교차매트릭스가 현재 좌표를 보여준다</h2>
-            <p>색이 짙은 칸은 사업 또는 예산이 집중된 지점이다. 0이 반복되는 영역은 법적 근거와 국가 과제가 만나지만 아직 사업이 없는 지점이다.</p>
+            <h2>교차매트릭스로 본 현재 좌표</h2>
+            <p>색이 짙은 칸은 사업 또는 예산이 집중된 지점 & 0이 반복되는 영역은 법적 근거와 국가 과제가 만나지만 아직 사업이 없는 지점</p>
           </div>
         </div>
         <div class="panel">
@@ -848,8 +850,8 @@
       <section class="section">
         <div class="section-head">
           <div>
-            <h2>전략11 안팎의 차이가 크다</h2>
-            <p>사업 수와 예산 모두 전략11 밖 비중이 크다. 원자료 2,031건은 권역, 정책영역, 기본권으로 압축해 해석한다.</p>
+            <h2>전략11 전후의 뚜렷한 격차</h2>
+            <p>전략11 외부의 높은 사업·예산 비중과 원자료 2,031건의 권역·정책영역·기본권 중심 압축 해석</p>
           </div>
         </div>
         <div class="split-layout">
@@ -896,8 +898,8 @@
       <section class="section" id="gaps">
         <div class="section-head">
           <div>
-            <h2>비어 있는 칸은 다음 프로젝트의 출발점이다</h2>
-            <p>완전 공백 과제와 우선 공백 셀은 대응 프로젝트로 연결된다. 이 구간이 분석에서 실행 로드맵으로 넘어가는 전환부다.</p>
+            <h2>미사업 공백에서 찾는 신규 프로젝트 기회</h2>
+            <p>완전·우선 공백 셀의 대응 프로젝트 연계와 실행 로드맵 전환</p>
           </div>
         </div>
         <div class="focus-grid" id="gap-grid"></div>
@@ -907,7 +909,7 @@
         <div class="section-head">
           <div>
             <h2>20대 핵심 프로젝트 로드맵</h2>
-            <p>5개 전략영역으로 묶어 공백 선점, 기존 자산 재구조화, 규범 제도화, 산업 투자의 공공 환류를 이어간다.</p>
+            <p>5대 전략영역 중심의 공백 선점·자산 재구조화·규범 제도화·산업투자 공공 환류</p>
           </div>
         </div>
         <div class="roadmap" id="roadmap-lanes"></div>
